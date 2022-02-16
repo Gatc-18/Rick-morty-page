@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+
+body{
+    font-family: 'Oswald';
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url('https://i.ibb.co/zRLdcKL/wallpapersden-com-rick-and-morty-3840x2160.jpg');
+    background-size: cover;  
+}
+
+img{
+    border-radius: 20px;
+    width:100%
+}
+
+.card-character{
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #363636;
+    margin: 10px 10px
+}
+
+.card-character:hover{
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1);
+    transform:scale(1.1);
+    box-shadow: 2px 0px 26px 1px #000000;
+}
+
+
+.alive{
+    background-color: rgb(0, 255, 21);
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.death{
+    background-color: red;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.otro{
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+}
+
+
+.status div{
+    display: inline-block;
+}
+
+.status h3{
+    display: inline;
+}
+
+h1:hover{
+    color:#F77D0A
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+.containerInfo{
+    margin:10px
+}
